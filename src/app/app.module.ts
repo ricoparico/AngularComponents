@@ -8,12 +8,16 @@ import { LandingpageComponent } from './components/landingpage/landingpage.compo
 import { CommonModule } from '@angular/common';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ShowhellobuttonComponent } from './components/showhellobutton/showhellobutton.component';
+import { DisplaynameComponent } from './components/displayname/displayname.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DisplayhelloworldComponent,
-    LandingpageComponent
+    LandingpageComponent,
+    ShowhellobuttonComponent,
+    DisplaynameComponent
   ],
   imports: [
     BrowserModule,
