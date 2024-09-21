@@ -10,6 +10,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ShowhellobuttonComponent } from './components/showhellobutton/showhellobutton.component';
 import { DisplaynameComponent } from './components/displayname/displayname.component';
+import { CounterComponent } from './components/counter/counter.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { DisplaynameComponent } from './components/displayname/displayname.compo
     DisplayhelloworldComponent,
     LandingpageComponent,
     ShowhellobuttonComponent,
-    DisplaynameComponent
+    DisplaynameComponent,
+    CounterComponent
   ],
   imports: [
     BrowserModule,
