@@ -1,0 +1,13 @@
+<hr>
+<div>
+    <p>Name:</p>
+    <textarea [(ngModel)]="name"></textarea>
+    <p>Age:</p>
+    <textarea [(ngModel)]="age"></textarea>
+    <p>Course:</p>
+    <textarea [(ngModel)]="course"></textarea>
+    
+    <br><button (click)="displayName()">Submit</button>
+    <p *ngIf="showMessage">{{ showMessage }}</p>
+</div>
+

@@ -11,6 +11,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ShowhellobuttonComponent } from './components/showhellobutton/showhellobutton.component';
 import { DisplaynameComponent } from './components/displayname/displayname.component';
 import { CounterComponent } from './components/counter/counter.component';
+import { SimpleformComponent } from './components/simpleform/simpleform.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CounterComponent } from './components/counter/counter.component';
     LandingpageComponent,
     ShowhellobuttonComponent,
     DisplaynameComponent,
-    CounterComponent
+    CounterComponent,
+    SimpleformComponent
   ],
   imports: [
     BrowserModule,
