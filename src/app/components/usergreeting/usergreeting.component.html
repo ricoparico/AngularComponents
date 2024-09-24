@@ -1,0 +1,10 @@
+<hr>
+<div>
+    <p>Input your name:</p>
+    <textarea [(ngModel)]="name"></textarea>
+    
+    
+    <br><button (click)="displayName()">Submit</button>
+    <p *ngIf="showMessage">{{ showMessage }}</p>
+</div>
+

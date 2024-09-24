@@ -13,6 +13,7 @@ import { DisplaynameComponent } from './components/displayname/displayname.compo
 import { CounterComponent } from './components/counter/counter.component';
 import { SimpleformComponent } from './components/simpleform/simpleform.component';
 import { UserageComponent } from './components/userage/userage.component';
+import { UsergreetingComponent } from './components/usergreeting/usergreeting.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { UserageComponent } from './components/userage/userage.component';
     DisplaynameComponent,
     CounterComponent,
     SimpleformComponent,
-    UserageComponent
+    UserageComponent,
+    UsergreetingComponent
   ],
   imports: [
     BrowserModule,
