@@ -1,0 +1,9 @@
+<hr>
+<div>
+    <h2>Currency Converter</h2>
+    <input type="number" [(ngModel)]="dollars" placeholder="Enter amount in USD"><br><br>
+    <button (click)="convertCurrency()">Convert to PHP</button>
+  
+    <h3 *ngIf="pesos !== null">Amount in PHP: {{ pesos }}</h3>
+  </div>
+  
