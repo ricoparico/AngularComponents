@@ -1,0 +1,13 @@
+<hr>
+<div>
+    <input type="number" [(ngModel)]="num1" placeholder="Number 1"><br><br>
+    <input type="number" [(ngModel)]="num2" placeholder="Number 2"><br><br>
+  
+    
+    <button (click)="add()">+</button>
+    <button (click)="subtract()">-</button>
+    <button (click)="multiply()">x</button>
+    <button (click)="divide()">/</button>
+  
+    <h3 *ngIf="result !== null">Result: {{ result }}</h3>
+  </div>

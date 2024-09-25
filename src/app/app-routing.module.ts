@@ -8,6 +8,7 @@ import { CounterComponent } from './components/counter/counter.component';
 import { SimpleformComponent } from './components/simpleform/simpleform.component';
 import { UserageComponent } from './components/userage/userage.component';
 import { UsergreetingComponent } from './components/usergreeting/usergreeting.component';
+import { CalculatorComponent } from './components/calculator/calculator.component';
 
 const routes: Routes = [
   {path:"", component:LandingpageComponent}, 
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path:"counter", component: CounterComponent},
   {path:"simpleform", component: SimpleformComponent},
   {path: "userage", component: UserageComponent},
-  {path: "usergreeting", component: UsergreetingComponent}
+  {path: "usergreeting", component: UsergreetingComponent},
+  {path: "calculator", component: CalculatorComponent}
 ];
 
 @NgModule({
