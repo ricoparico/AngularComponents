@@ -1,0 +1,8 @@
+<hr>
+<div>
+    <input type="text" [(ngModel)]="inputString" placeholder="Input Text"><br><br>
+    <button (click)="calculateLength()">Get Length</button>
+  
+    <h3 *ngIf="stringLength !== null">Length: {{ stringLength }}</h3>
+  </div>
+  
