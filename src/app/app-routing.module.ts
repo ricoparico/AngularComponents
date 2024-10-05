@@ -13,6 +13,7 @@ import { TextlengthComponent } from './components/textlength/textlength.componen
 import { CurrencyconverterComponent } from './components/currencyconverter/currencyconverter.component';
 import { EvenoddcheckerComponent } from './components/evenoddchecker/evenoddchecker.component';
 import { WordreverserComponent } from './components/wordreverser/wordreverser.component';
+import { ShowdateComponent } from './components/showdate/showdate.component';
 
 const routes: Routes = [
   {path:"", component:LandingpageComponent}, 
@@ -27,7 +28,8 @@ const routes: Routes = [
   {path: "textlength", component: TextlengthComponent},
   {path: "currencyconverter", component: CurrencyconverterComponent},
   {path: "evenoddchecker", component: EvenoddcheckerComponent},
-  {path: "wordreverser", component: WordreverserComponent}
+  {path: "wordreverser", component: WordreverserComponent},
+  {path: "showdate", component: ShowdateComponent}
 ];
 
 @NgModule({
