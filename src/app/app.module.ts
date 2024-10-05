@@ -17,10 +17,8 @@ import { UsergreetingComponent } from './components/usergreeting/usergreeting.co
 import { CalculatorComponent } from './components/calculator/calculator.component';
 import { TextlengthComponent } from './components/textlength/textlength.component';
 import { CurrencyconverterComponent } from './components/currencyconverter/currencyconverter.component';
-<<<<<<< HEAD
 import { EvenoddcheckerComponent } from './components/evenoddchecker/evenoddchecker.component';
-=======
->>>>>>> 43ea9a041181de88da3861b66de7e27ded2209cd
+import { WordreverserComponent } from './components/wordreverser/wordreverser.component';
 
 @NgModule({
   declarations: [
@@ -35,12 +33,9 @@ import { EvenoddcheckerComponent } from './components/evenoddchecker/evenoddchec
     UsergreetingComponent,
     CalculatorComponent,
     TextlengthComponent,
-<<<<<<< HEAD
     CurrencyconverterComponent,
-    EvenoddcheckerComponent
-=======
-    CurrencyconverterComponent
->>>>>>> 43ea9a041181de88da3861b66de7e27ded2209cd
+    EvenoddcheckerComponent,
+    WordreverserComponent
   ],
   imports: [
     BrowserModule,
