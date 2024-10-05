@@ -11,7 +11,10 @@ import { UsergreetingComponent } from './components/usergreeting/usergreeting.co
 import { CalculatorComponent } from './components/calculator/calculator.component';
 import { TextlengthComponent } from './components/textlength/textlength.component';
 import { CurrencyconverterComponent } from './components/currencyconverter/currencyconverter.component';
+<<<<<<< HEAD
 import { EvenoddcheckerComponent } from './components/evenoddchecker/evenoddchecker.component';
+=======
+>>>>>>> 43ea9a041181de88da3861b66de7e27ded2209cd
 
 const routes: Routes = [
   {path:"", component:LandingpageComponent}, 
@@ -24,8 +27,12 @@ const routes: Routes = [
   {path: "usergreeting", component: UsergreetingComponent},
   {path: "calculator", component: CalculatorComponent},
   {path: "textlength", component: TextlengthComponent},
+<<<<<<< HEAD
   {path: "currencyconverter", component: CurrencyconverterComponent},
   {path: "evenoddchecker", component: EvenoddcheckerComponent}
+=======
+  {path: "currencyconverter", component: CurrencyconverterComponent}
+>>>>>>> 43ea9a041181de88da3861b66de7e27ded2209cd
 ];
 
 @NgModule({

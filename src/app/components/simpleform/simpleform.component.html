@@ -1,11 +1,19 @@
 <hr>
 <div>
     <p>Name:</p>
+<<<<<<< HEAD
     <input [(ngModel)]="name"/>
     <p>Age:</p>
     <input [(ngModel)]="age"/>
     <p>Course:</p>
     <input [(ngModel)]="course"/>
+=======
+    <textarea [(ngModel)]="name"></textarea>
+    <p>Age:</p>
+    <textarea [(ngModel)]="age"></textarea>
+    <p>Course:</p>
+    <textarea [(ngModel)]="course"></textarea>
+>>>>>>> 43ea9a041181de88da3861b66de7e27ded2209cd
     
     <br><button (click)="displayName()">Submit</button>
     <p *ngIf="showMessage">{{ showMessage }}</p>
