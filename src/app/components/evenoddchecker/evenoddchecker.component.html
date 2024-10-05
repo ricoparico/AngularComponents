@@ -1,0 +1,9 @@
+<hr>
+<div>
+    <p>Even & Odd Checker</p>
+    <input type="number" [(ngModel)]="number" placeholder="Enter a number" />
+    <button (click)="checkEvenOdd()">Check</button>
+  </div>
+  <div *ngIf="result">
+    <p>{{ result }}</p>
+  </div>

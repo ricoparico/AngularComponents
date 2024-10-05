@@ -1,0 +1,8 @@
+<hr>
+<div>
+    <p>Input Your Name</p>
+    <input [(ngModel)]="userInput"/>
+    <br><button (click)="displayName()">Enter</button>
+    <p *ngIf="showMessage">{{ showMessage }}</p>
+</div>
+

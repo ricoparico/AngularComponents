@@ -1,0 +1,13 @@
+<hr>
+<div>
+    <p>Name:</p>
+    <input [(ngModel)]="name"/>
+    <p>Age:</p>
+    <input [(ngModel)]="age"/>
+    <p>Course:</p>
+    <input [(ngModel)]="course"/>
+    
+    <br><button (click)="displayName()">Submit</button>
+    <p *ngIf="showMessage">{{ showMessage }}</p>
+</div>
+

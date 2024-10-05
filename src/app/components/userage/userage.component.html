@@ -1,0 +1,9 @@
+<hr>
+<div>
+    Input your Birth Year:<br>
+    <input [(ngModel)]="userAge"/>
+    <br>
+    <button (click)="displayAge()">Enter</button>
+    <p *ngIf="showMessage">{{ showMessage }}</p>
+  </div>
+
