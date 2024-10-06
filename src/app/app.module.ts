@@ -25,6 +25,7 @@ import { MultiplicationtableComponent } from './components/multiplicationtable/m
 import { SimpleloginComponent } from './components/simplelogin/simplelogin.component';
 import { FahrenheittocelsiusComponent } from './components/fahrenheittocelsius/fahrenheittocelsius.component';
 import { BookmarklistComponent } from './components/bookmarklist/bookmarklist.component';
+import { CharactercounterComponent } from './components/charactercounter/charactercounter.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import { BookmarklistComponent } from './components/bookmarklist/bookmarklist.co
     MultiplicationtableComponent,
     SimpleloginComponent,
     FahrenheittocelsiusComponent,
-    BookmarklistComponent
+    BookmarklistComponent,
+    CharactercounterComponent
   ],
   imports: [
     BrowserModule,
