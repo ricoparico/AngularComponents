@@ -1,0 +1,11 @@
+<hr>
+<div class="multiplication-table">
+    <p>Multiplication Table</p>
+    <input type="number" [(ngModel)]="number" (input)="generateTable()" />
+    <p>Table for {{ number }}:</p>
+    <ul>
+      <li *ngFor="let result of multiplicationTable">
+        {{ number }} x {{ multiplicationTable.indexOf(result) + 1 }} = {{ result }}
+      </li>
+    </ul>
+  </div>
