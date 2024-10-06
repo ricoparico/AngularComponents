@@ -18,6 +18,7 @@ import { ShowusernameComponent } from './components/showusername/showusername.co
 import { MultiplicationtableComponent } from './components/multiplicationtable/multiplicationtable.component';
 import { SimpleloginComponent } from './components/simplelogin/simplelogin.component';
 import { FahrenheittocelsiusComponent } from './components/fahrenheittocelsius/fahrenheittocelsius.component';
+import { BookmarklistComponent } from './components/bookmarklist/bookmarklist.component';
 
 const routes: Routes = [
   {path:"", component:LandingpageComponent}, 
@@ -37,7 +38,8 @@ const routes: Routes = [
   {path: "showusername", component: ShowusernameComponent},
   {path: "multiplicationtable", component:MultiplicationtableComponent},
   {path: "simplelogin", component: SimpleloginComponent},
-  {path: "fahrenheittocelsius", component: FahrenheittocelsiusComponent}
+  {path: "fahrenheittocelsius", component: FahrenheittocelsiusComponent},
+  {path: "bookmarklist", component: BookmarklistComponent}
 ];
 
 @NgModule({
