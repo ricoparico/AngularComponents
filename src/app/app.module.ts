@@ -22,6 +22,8 @@ import { WordreverserComponent } from './components/wordreverser/wordreverser.co
 import { ShowdateComponent } from './components/showdate/showdate.component';
 import { ShowusernameComponent } from './components/showusername/showusername.component';
 import { MultiplicationtableComponent } from './components/multiplicationtable/multiplicationtable.component';
+import { SimpleloginComponent } from './components/simplelogin/simplelogin.component';
+import { FahrenheittocelsiusComponent } from './components/fahrenheittocelsius/fahrenheittocelsius.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import { MultiplicationtableComponent } from './components/multiplicationtable/m
     WordreverserComponent,
     ShowdateComponent,
     ShowusernameComponent,
-    MultiplicationtableComponent
+    MultiplicationtableComponent,
+    SimpleloginComponent,
+    FahrenheittocelsiusComponent
   ],
   imports: [
     BrowserModule,

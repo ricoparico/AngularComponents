@@ -16,6 +16,8 @@ import { WordreverserComponent } from './components/wordreverser/wordreverser.co
 import { ShowdateComponent } from './components/showdate/showdate.component';
 import { ShowusernameComponent } from './components/showusername/showusername.component';
 import { MultiplicationtableComponent } from './components/multiplicationtable/multiplicationtable.component';
+import { SimpleloginComponent } from './components/simplelogin/simplelogin.component';
+import { FahrenheittocelsiusComponent } from './components/fahrenheittocelsius/fahrenheittocelsius.component';
 
 const routes: Routes = [
   {path:"", component:LandingpageComponent}, 
@@ -33,7 +35,9 @@ const routes: Routes = [
   {path: "wordreverser", component: WordreverserComponent},
   {path: "showdate", component: ShowdateComponent},
   {path: "showusername", component: ShowusernameComponent},
-  {path: "multiplicationtable", component:MultiplicationtableComponent}
+  {path: "multiplicationtable", component:MultiplicationtableComponent},
+  {path: "simplelogin", component: SimpleloginComponent},
+  {path: "fahrenheittocelsius", component: FahrenheittocelsiusComponent}
 ];
 
 @NgModule({

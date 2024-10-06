@@ -1,0 +1,14 @@
+<hr>
+<div class="temperature-converter">
+    <p>Fahrenheit to Celsius Converter</p>
+    <label for="fahrenheit">Fahrenheit:</label>
+    <input
+      id="fahrenheit"
+      type="number"
+      [(ngModel)]="fahrenheit"
+      (input)="convert()"
+    />
+    <div *ngIf="celsius !== null">
+      <p>Celsius: {{ celsius | number: '1.2-2' }}</p>
+    </div>
+  </div>
