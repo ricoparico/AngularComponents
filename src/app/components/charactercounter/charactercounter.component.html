@@ -1,1 +1,12 @@
-<p>charactercounter works!</p>
+<hr>
+<div class="character-counter">
+    <p>Character Counter</p>
+    <textarea 
+      [(ngModel)]="inputText" 
+      (input)="countCharacters()" 
+      rows="4" 
+      cols="50" 
+      placeholder="Type something here..."></textarea>
+    
+    <p>Character Count: {{ characterCount }}</p>
+  </div>

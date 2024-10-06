@@ -1,8 +1,7 @@
 <hr>
 <div>
-    <p>Input Your Name</p>
-    <input [(ngModel)]="userInput"/>
-    <textarea [(ngModel)]="userInput"></textarea>
+    <p>Display Name</p>
+    <input [(ngModel)]="userInput" placeholder="Input Your Name"/>
     <br><button (click)="displayName()">Enter</button>
     <p *ngIf="showMessage">{{ showMessage }}</p>
 </div>

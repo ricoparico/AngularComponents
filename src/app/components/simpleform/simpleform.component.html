@@ -1,16 +1,12 @@
 <hr>
 <div>
+    <p>Simple Form</p>
     <p>Name:</p>
-    <input [(ngModel)]="name"/>
+    <input [(ngModel)]="name" placeholder="Enter your name"/>
     <p>Age:</p>
-    <input [(ngModel)]="age"/>
+    <input [(ngModel)]="age" placeholder="Enter your age"/>
     <p>Course:</p>
-    <input [(ngModel)]="course"/>
-    <textarea [(ngModel)]="name"></textarea>
-    <p>Age:</p>
-    <textarea [(ngModel)]="age"></textarea>
-    <p>Course:</p>
-    <textarea [(ngModel)]="course"></textarea>
+    <input [(ngModel)]="course" placeholder="Enter your course"/>
     <br><button (click)="displayName()">Submit</button>
     <p *ngIf="showMessage">{{ showMessage }}</p>
 </div>
