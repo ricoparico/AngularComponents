@@ -26,6 +26,7 @@ import { SimpleloginComponent } from './components/simplelogin/simplelogin.compo
 import { FahrenheittocelsiusComponent } from './components/fahrenheittocelsius/fahrenheittocelsius.component';
 import { BookmarklistComponent } from './components/bookmarklist/bookmarklist.component';
 import { CharactercounterComponent } from './components/charactercounter/charactercounter.component';
+import { PalindromecheckerComponent } from './components/palindromechecker/palindromechecker.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { CharactercounterComponent } from './components/charactercounter/charact
     SimpleloginComponent,
     FahrenheittocelsiusComponent,
     BookmarklistComponent,
-    CharactercounterComponent
+    CharactercounterComponent,
+    PalindromecheckerComponent
   ],
   imports: [
     BrowserModule,

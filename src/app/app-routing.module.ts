@@ -20,6 +20,7 @@ import { SimpleloginComponent } from './components/simplelogin/simplelogin.compo
 import { FahrenheittocelsiusComponent } from './components/fahrenheittocelsius/fahrenheittocelsius.component';
 import { BookmarklistComponent } from './components/bookmarklist/bookmarklist.component';
 import { CharactercounterComponent } from './components/charactercounter/charactercounter.component';
+import { PalindromecheckerComponent } from './components/palindromechecker/palindromechecker.component';
 
 const routes: Routes = [
   {path:"", component:LandingpageComponent}, 
@@ -41,7 +42,8 @@ const routes: Routes = [
   {path: "simplelogin", component: SimpleloginComponent},
   {path: "fahrenheittocelsius", component: FahrenheittocelsiusComponent},
   {path: "bookmarklist", component: BookmarklistComponent},
-  {path: "charactercounter", component: CharactercounterComponent}
+  {path: "charactercounter", component: CharactercounterComponent},
+  {path: "palindromechecker", component: PalindromecheckerComponent}
 ];
 
 @NgModule({

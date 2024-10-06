@@ -1,0 +1,19 @@
+<hr>
+<div class="palindrome-checker">
+    <p>Palindrome Checker</p>
+    <input 
+      type="text" 
+      [(ngModel)]="inputWord" 
+      placeholder="Enter a word"
+      (input)="isPalindrome = null"
+    />
+    <button (click)="checkPalindrome()">Check</button>
+  
+    <div *ngIf="isPalindrome !== null">
+      <p>
+        The word "<strong>{{ inputWord }}</strong>" is 
+        <strong>{{ isPalindrome ? 'a' : 'not a' }}</strong> palindrome.
+      </p>
+    </div>
+  </div>
+  
