@@ -1,0 +1,14 @@
+<hr>
+<div class="factorial-calculator">
+    <p>Factorial Calculator</p>
+    <input type="number" [(ngModel)]="number" placeholder="Enter a non-negative integer" />
+    <button (click)="calculateFactorial()">Calculate Factorial</button>
+    
+    <div *ngIf="result !== null">
+      <p>Factorial of {{ number }} is: {{ result }}</p>
+    </div>
+    <div *ngIf="result === null && number !== null">
+      <p>Please enter a valid non-negative integer.</p>
+    </div>
+  </div>
+  
