@@ -6,6 +6,10 @@ import { Component } from '@angular/core';
   styleUrl: './simplelogin.component.css'
 })
 export class SimpleloginComponent {
- 
+  constructor() {}
+
+  onSubmit() {
+    console.log('Form submitted!');
+  }
 }
 

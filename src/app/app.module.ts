@@ -32,6 +32,7 @@ import { ShoppinglistComponent } from './components/shoppinglist/shoppinglist.co
 import { FactorialcalculatorComponent } from './components/factorialcalculator/factorialcalculator.component';
 import { TodomanagerComponent } from './components/todomanager/todomanager.component';
 import { GuessnumbergameComponent } from './components/guessnumbergame/guessnumbergame.component';
+import { WordcounterComponent } from './components/wordcounter/wordcounter.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +62,8 @@ import { GuessnumbergameComponent } from './components/guessnumbergame/guessnumb
     ShoppinglistComponent,
     FactorialcalculatorComponent,
     TodomanagerComponent,
-    GuessnumbergameComponent
+    GuessnumbergameComponent,
+    WordcounterComponent
   ],
   imports: [
     BrowserModule,
